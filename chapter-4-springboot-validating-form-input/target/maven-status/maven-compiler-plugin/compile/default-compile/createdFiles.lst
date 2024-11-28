@@ -1,0 +1,6 @@
+demo\springboot\service\UserService.class
+demo\springboot\model\UserRepository.class
+demo\springboot\controller\UserController.class
+demo\springboot\model\User.class
+demo\springboot\service\impl\UserServiceImpl.class
+demo\springboot\ValidatingFormInputApplication.class

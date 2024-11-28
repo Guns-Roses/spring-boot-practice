@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58522304-895f-43e0-9041-e9101f63a0ee" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.3\Maven_repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2oq7r9nBfKsB17rOBrH0DFVveE3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="MyBatisLogPluginparameters" value="Parameters:" />
+    <property name="MyBatisLogPluginpreparing" value="Preparing:" />
+    <property name="MyBatisLogPluginrunning" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA_Code\demo-spring-boot\chapter-4-springboot-validating-form-input\src\main\resources\templates" />
+      <recent name="D:\IDEA_Code\demo-spring-boot\chapter-4-springboot-validating-form-input\src\main\resources\static\css" />
+      <recent name="D:\IDEA_Code\demo-spring-boot\chapter-4-springboot-validating-form-input\src\main\resources\static\images" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ValidatingFormInputApplication">
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="chapter-2-springboot-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.springboot.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickStartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-1-springboot-quickstart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.springboot.QuickStartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidatingFormInputApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-4-springboot-validating-form-input" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.springboot.ValidatingFormInputApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-3-springboot-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.springboot.WebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ConfigApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58522304-895f-43e0-9041-e9101f63a0ee" name="Default Changelist" comment="" />
+      <created>1731585447241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731585447241</updated>
+      <workItem from="1731585451828" duration="47555000" />
+      <workItem from="1732527168655" duration="19933000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Project_Structure" timestamp="1731585935273">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Project_Structure/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731585935273" />
+    <state x="488" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1731590666498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="488" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731590666498" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1732773388737">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731590935416" />
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1732773388737" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1732763879602">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1732763879602" />
+    <state x="524" y="112" key="#xdebugger.evaluate" timestamp="1732265480593">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="112" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1732265480593" />
+    <state x="528" y="113" key="FileChooserDialogImpl" timestamp="1731585485813">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="528" y="113" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731585485813" />
+    <state width="1492" height="96" key="GridCell.Tab.0.bottom" timestamp="1732776622577">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="47" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731591112456" />
+    <state width="1492" height="96" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1732776622577" />
+    <state width="1492" height="96" key="GridCell.Tab.0.center" timestamp="1732776622577">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="47" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731591112455" />
+    <state width="1492" height="96" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1732776622577" />
+    <state width="1492" height="96" key="GridCell.Tab.0.left" timestamp="1732776622576">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="47" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731591112455" />
+    <state width="1492" height="96" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1732776622576" />
+    <state width="1492" height="96" key="GridCell.Tab.0.right" timestamp="1732776622577">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="47" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731591112455" />
+    <state width="1492" height="96" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1732776622577" />
+    <state width="1492" height="243" key="GridCell.Tab.1.bottom" timestamp="1732775055067">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="47" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731591112457" />
+    <state width="1492" height="243" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1732775055067" />
+    <state width="1492" height="243" key="GridCell.Tab.1.center" timestamp="1732775055067">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="47" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731591112457" />
+    <state width="1492" height="243" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1732775055067" />
+    <state width="1492" height="243" key="GridCell.Tab.1.left" timestamp="1732775055067">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="47" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731591112457" />
+    <state width="1492" height="243" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1732775055067" />
+    <state width="1492" height="243" key="GridCell.Tab.1.right" timestamp="1732775055067">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="47" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731591112457" />
+    <state width="1492" height="243" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1732775055067" />
+    <state width="1492" height="96" key="GridCell.Tab.2.bottom" timestamp="1732775055058">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731588315694" />
+    <state width="1492" height="96" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1732775055058" />
+    <state width="1492" height="96" key="GridCell.Tab.2.center" timestamp="1732775055058">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="261" key="GridCell.Tab.2.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731588315694" />
+    <state width="1492" height="96" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1732775055058" />
+    <state width="1492" height="96" key="GridCell.Tab.2.left" timestamp="1732775055058">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="261" key="GridCell.Tab.2.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731588315694" />
+    <state width="1492" height="96" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1732775055058" />
+    <state width="1492" height="96" key="GridCell.Tab.2.right" timestamp="1732775055058">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1492" height="261" key="GridCell.Tab.2.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731588315694" />
+    <state width="1492" height="96" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1732775055058" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1731586260989">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731586260989" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1731586028756">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731586028756" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1732528987544">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1732528987544" />
+    <state x="539" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1731911999673">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="539" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1731911999673" />
+    <state x="173" y="214" key="new project wizard" timestamp="1732670610358">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="107" key="new project wizard/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1731589847328" />
+    <state x="173" y="214" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1732670610358" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1732773330815">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1732773330815" />
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
+  </component>
+</project>
