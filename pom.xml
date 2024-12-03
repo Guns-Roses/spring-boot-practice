@@ -13,6 +13,7 @@
         <module>chapter-2-springboot-config</module>
         <module>chapter-3-springboot-web</module>
         <module>chapter-4-springboot-validating-form-input</module>
+        <module>chapter-4-springboot-web-thymeleaf</module>
     </modules>
 
 
