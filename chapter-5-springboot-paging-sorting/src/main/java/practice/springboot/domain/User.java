@@ -1,45 +1,38 @@
-package demo.springboot.model;
+package practice.springboot.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.validation.constraints.*;
 import java.io.Serializable;
 
 /**
  * @author kevin.lv
- * @date 2024/11/27 9:29
+ * @date 2024/12/3 15:57
  */
 @Entity
 public class User implements Serializable {
 
     /**
-     * 用户Id
+     * 编号
      */
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     /**
-     * 用户姓名
+     * 名称
      */
-    @NotEmpty(message = "姓名不能为空")
-    @Size(min = 2, max = 32, message = "姓名长度必须大于2且小于32")
     private String name;
 
     /**
      * 年龄
      */
-    @NotNull(message = "年龄不能为空")
-    @Min(value = 0, message = "年龄大于 0")
-    @Max(value = 200, message = "年龄不能大于 200")
-    private int age;
+    private Integer age;
 
     /**
      * 出生时间
      */
-    @NotEmpty(message = "出生时间不能为空")
     private String birthday;
 
     public Long getId() {
@@ -58,11 +51,11 @@ public class User implements Serializable {
         this.name = name;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 
@@ -74,21 +67,13 @@ public class User implements Serializable {
         this.birthday = birthday;
     }
 
-    public User(String name, Integer age, String birthday) {
-        this.name = name;
-        this.age = age;
-        this.birthday = birthday;
-    }
-
-    public User() {}
-
     @Override
     public String toString() {
         return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", age=" + age +
-                ", birthday='" + birthday + '\'' +
+                ", birthday=" + birthday +
                 '}';
     }
 }

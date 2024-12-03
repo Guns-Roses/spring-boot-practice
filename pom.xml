@@ -14,6 +14,7 @@
         <module>chapter-3-springboot-web</module>
         <module>chapter-4-springboot-validating-form-input</module>
         <module>chapter-4-springboot-web-thymeleaf</module>
+        <module>chapter-5-springboot-paging-sorting</module>
     </modules>
 
 
