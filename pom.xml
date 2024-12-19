@@ -16,6 +16,7 @@
         <module>chapter-4-springboot-web-thymeleaf</module>
         <module>chapter-5-springboot-paging-sorting</module>
         <module>chapter-6-springboot-log</module>
+        <module>chapter-7-springboot-mail</module>
     </modules>
 
 

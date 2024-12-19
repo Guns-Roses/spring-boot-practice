@@ -1,0 +1,18 @@
+spring:
+  mail:
+    host: quectel-com-r.corpemail.net
+    port: 587
+    username: smtpout@info.quectel.com
+    # 使用 jasypt 加密密码，使用test.java.practice.springboot.PasswordTests.java 生成加密密码，替换 ENC(加密密码)
+    password: ENC(cVjFrb3qwwcbMZZB8e5aXdmUO7xJA10fTexhay9/qXRvWKCZUs1yU7gH11Apn46Qadt9wR2vSuSFxLyEHO8w/g==)
+    protocol: smtp
+    test-connection: true
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+      mail.smtp.starttls.required: true
+      #mail.smtp.ssl.enable: true(针对465端口)
+# 为 jasypt 配置解密秘钥
+jasypt:
+  encryptor:
+    password: practice.springboot

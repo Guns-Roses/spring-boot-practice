@@ -2,8 +2,8 @@ package practice.springboot.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import practice.springboot.domain.Book;
 import practice.springboot.domain.BookRepository;
+import practice.springboot.domain.Book;
 import practice.springboot.service.BookService;
 
 import java.util.List;
