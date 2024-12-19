@@ -6,7 +6,7 @@
     <name>chapter-5-springboot-paging-sorting</name>
 
     <groupId>org.springboot</groupId>
-    <artifactId>chapter-4-springboot-web-thymeleaf</artifactId>
+    <artifactId>chapter-5-springboot-paging-sorting</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
