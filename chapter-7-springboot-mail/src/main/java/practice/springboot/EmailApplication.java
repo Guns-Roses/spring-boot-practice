@@ -16,7 +16,7 @@ public class EmailApplication {
         AES256TextEncryptor textEncryptors = new AES256TextEncryptor();
         // 设置密钥
         textEncryptors.setPassword("practice.springboot");
-        String encryptedPassword = textEncryptors.encrypt("your-email-password");
+        String encryptedPassword = textEncryptors.encrypt("Quec@2023!");
         System.out.println("Encrypted Password: " + encryptedPassword);
 
         SpringApplication.run(EmailApplication.class);
