@@ -75,12 +75,22 @@ public class OssService {
         String bucketName = ossConfig.getBucketName();
 
         // 2. 创建 OSS 客户端
-        OSS ossClient = new OSSClientBuilder().build(endpoint, accessKeyId, accessKeySecret);
+        OSS ossClient = new OSSClientBuilder().build(endpoint,
+                accessKeyId, accessKeySecret);
 
         try {
-            // 3. 删除文件
+            // 3. 先检查文件是否存在
+            boolean exists = ossClient.doesObjectExist(bucketName, fileName);
+            if (!exists) {
+                System.out.println("文件不存在: " + fileName);
+                return false;
+            }
+            // 4. 删除文件
             ossClient.deleteObject(bucketName, fileName);
-            return true;
+
+            // 5. 再次检查是否删除成功
+            exists = ossClient.doesObjectExist(bucketName, fileName);
+            return !exists;
         } catch (Exception e) {
             e.printStackTrace();
             return false;

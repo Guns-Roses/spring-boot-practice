@@ -45,6 +45,7 @@ public class OssController {
      *
      * @param fileName 文件名
      * @return 删除结果
+     * 注意事项：fileName 文件名必须带后缀，为完整的文件名称
      */
     @DeleteMapping("/delete")
     public Map<String, Object> deleteFile(@RequestParam("fileName") String fileName) {
