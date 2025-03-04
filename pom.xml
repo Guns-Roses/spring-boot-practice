@@ -18,6 +18,7 @@
         <module>chapter-6-springboot-log</module>
         <module>chapter-7-springboot-mail</module>
         <module>chapter-8-springboot-redis</module>
+        <module>chapter-9-springboot-oss</module>
     </modules>
 
 
