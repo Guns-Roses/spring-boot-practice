@@ -7,12 +7,15 @@ package practice.springboot.service;
 
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
+import com.aliyun.oss.model.GeneratePresignedUrlRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import practice.springboot.config.OssConfig;
 
 import java.io.InputStream;
+import java.net.URL;
+import java.util.Date;
 
 @Service
 public class OssService {
@@ -34,7 +37,7 @@ public class OssService {
         String bucketName = ossConfig.getBucketName();
 
         // 2. 生成唯一的文件名
-        String Filename = file.getOriginalFilename();
+        String filename = file.getOriginalFilename();
         //assert Filename != null;
         //String fileExtension = originalFilename.substring(Filename.lastIndexOf("."));
         //String newFileName = UUID.randomUUID() + fileExtension;
@@ -47,11 +50,12 @@ public class OssService {
             InputStream inputStream = file.getInputStream();
 
             // 5. 上传文件
-            ossClient.putObject(bucketName, Filename, inputStream);
+            ossClient.putObject(bucketName, filename, inputStream);
 
             // 6. 拼接文件 URL
-            return "https://" + bucketName + "." + endpoint.replace("https://", "")
-                    + "/" + Filename;
+            URL url = setUrl(ossClient, bucketName, filename);
+            return url.toString();
+            //return "https://" + bucketName + "." + endpoint.replace("https://", "") + "/" + Filename;
         } catch (Exception e) {
             e.printStackTrace();
             return null;
@@ -98,6 +102,16 @@ public class OssService {
             // 4. 关闭 OSS 客户端
             ossClient.shutdown();
         }
+    }
+
+
+    public URL setUrl(OSS ossClient, String bucketName, String filename) {
+        // 1小时有效期
+        Date expiration = new Date(System.currentTimeMillis() + 3600 * 1000);
+        GeneratePresignedUrlRequest request = new GeneratePresignedUrlRequest(bucketName, filename);
+        request.setExpiration(expiration);
+        URL signedUrl = ossClient.generatePresignedUrl(request);
+        return signedUrl;
     }
 }
 
