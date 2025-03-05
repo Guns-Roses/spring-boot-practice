@@ -6,7 +6,8 @@ spring:
     # 使用 jasypt 加密密码，使用test.java.practice.springboot.PasswordTests.java 生成加密密码，替换 ENC(加密密码)
     password: ENC(cVjFrb3qwwcbMZZB8e5aXdmUO7xJA10fTexhay9/qXRvWKCZUs1yU7gH11Apn46Qadt9wR2vSuSFxLyEHO8w/g==)
     protocol: smtp
-    test-connection: true
+    #测试运行时是否会尝试链接邮件服务器,测试时需要关闭
+    test-connection: false
     properties:
       mail.smtp.auth: true
       mail.smtp.starttls.enable: true
